@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Limelight&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+}
+.H{
+    font-family:homemade apple ;
+    font-weight: lighter;
+  
+}
+.h{
+    margin-left:0.6rem;
+}
+nav{
+    border:2px solid black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color:  #2B1E15;
+}
+.righthead{
+    display:flex;
+    justify-content: space-between;   
+}
+a{
+    font-size: larger;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    font-family:'limelight';
+}
+.righthead>li{
+    margin:0px 1rem;
+}
+
+button{
+    font-family:'limelight';
+    border:none;
+    border-radius:2rem;
+    background-color: rgb(219, 210, 210);
+    padding:0.3rem 0.8rem;
+}
+
+
+.h1{
+    font-family:'limelight';
+    color:#3a271a;
+    border-bottom: 2px solid #3a271a;
+    width:10rem;
+}
+hr{
+    width:8rem;
+    font-weight: bolder;
+    color:#3a271a;
+}
+
+.img1{
+    position:relative;
+    margin:1rem 1rem;
+    width: 213px;
+}
+.menu1{
+    width:100%;
+    
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu{
+    box-sizing: border-box;
+   
+    width:100%;
+
+}
+.img{
+    
+    width: 213px;
+    height: 240px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    
+    align-items: center;
+}
+.bgg{
+    font-family:'limelight';
+    color:#3a271a;
+    width: 213px;
+    height:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    background: rgb(248, 235, 218);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main{
+   
+    width:90%;
+    margin:auto;
+    margin-top:3rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+.menu1{
+    margin-top:2rem;
+}
+.hovbutton{
+    width:50%;
+    padding:0.6rem;
+    background-color: #3a271a;
+    color: rgb(248, 235, 218);
+    margin-bottom: 0.6rem;
+    transition: all;
+    transition-duration:0.4s;
+}
+.hovbutton:hover{
+    transform: perspective(100px) translateZ(10px);
+
+}
+.pay{
+    box-sizing:border-box;
+    margin-left:1.6rem;
+    padding:0.5rem 1rem;
+    font-size:18px;
+    color:white;
+    background-color:#3a271a;
+}
+.cofeeim{
+
+   position:absolute;
+   top:0px;
+   left:10%;
+   
+}
+
+
+/**************************************************/
+.meenu{
+    width:67%;
+}
+.cart{
+    width: 50%;
+    background-color:rgb(248, 235, 218) ;
+}
+.h3{
+    box-sizing: border-box;
+    background-color: #3a271a;
+    height:3rem;
+    padding-top:0.5rem;
+    text-align: center;
+    font-family:'limelight';
+    color:rgb(248, 235, 218) ;
+}
+.cu>li{
+    font-family:'limelight';
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style:none;
+    margin:1rem 0.5rem;
+}
+
+.cu>li>img{
+    display: inline-block;
+    width:3.5rem;
+    border-radius:100%;
+}
+.remove,.minus,.plus{
+    background-color:rgb(248, 235, 218) ;
+    border:none;
+
+}
+.minus,.plus{
+    font-size:30px;
+}
+
+.cart{
+    text-align: center;
+    position:relative;
+    height:fit-content;
+}
+.r1{
+    width:fit-content;
+    font-size: larger;
+    color:rgb(248, 235, 218);
+    background-color: #3a271a;
+    position:absolute;
+    top:0.3rem;
+    left:83%;
+}
+.tp{
+    font-size: x-large;
+    text-align: center;
+    font-family:'limelight';
+    color:#3a271a;
+}
+.ttp{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 2rem;
+    font-family:limelight;
+    background-color:#3a271a;
+}
+.mainf{
+    box-sizing: border-box;
+    padding:3rem;
+    color:rgb(250, 245, 239);
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+   
+}
+.fi{
+    width:25%;
+    display:flex;
+  
+    align-items: center;
+    color:rgb(250, 245, 239);
+    
+}
+.htp{
+    box-sizing: border-box;
+    padding:0.9rem 2rem;
+    text-align: center;
+    border-top: 2px solid #3a271a;
+    
+}
+.uf{
+   
+    width:35%;}
+    
+.uf ul{
+    margin-top: 0.9rem;
+}
+.contact{
+    text-align: center;
+    width:25%;
+    
+}
+.contact i{
+    margin:0.6rem;
+    font-size:2.5rem;
+}
+.uf li{
+    display:flex;
+    justify-content: space-between;
+    padding:0.3rem 1rem 1rem 1rem;
+    border-bottom: 2px solid rgb(250, 245, 239); ;
+}
